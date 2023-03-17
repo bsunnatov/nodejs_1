@@ -1,13 +1,1 @@
-[
-    {
-        "id": "ca781996-8f94-42ad-b0e1-39c05c909939",
-        "firstName": "",
-        "lastName": "",
-        "age": "",
-        "dayOfBirth": "2023-03-15",
-        "address": {
-            "city": "",
-            "addressLine1": "sas"
-        }
-    }
-]
+[]

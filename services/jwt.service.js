@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 function generateAccessToken(userId) {
-    return jwt.sign({ userId: userId }, process.env.TOKEN_SECRET, { expiresIn: '3000s' });
+    return jwt.sign({ userId: userId }, process.env.TOKEN_SECRET, { expiresIn: '3d' });
 }
 function authenticateToken(req, res, next) {
     const authHeader = req.headers['authorization']
